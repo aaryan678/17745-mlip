@@ -1,0 +1,5 @@
+curl -X POST \
+  -H "Content-Type: image/jpeg" \
+  --data-binary @/Users/Aaryan/Desktop/17745/mlip-api-lab/logo.png \
+  http://127.0.0.1:3000/api/v1/analyze
+
